@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a373757a-e96f-4b66-9fec-27ab3b458e9c">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select * from jadwal]]>
+	</queryString>
+	<field name="no" class="java.lang.Integer"/>
+	<field name="hari" class="java.lang.String"/>
+	<field name="jam" class="java.lang.String"/>
+	<field name="kelas" class="java.lang.String"/>
+	<field name="mapel" class="java.lang.String"/>
+	<field name="pengajar" class="java.lang.String"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<staticText>
+				<reportElement uuid="31d72a78-0449-4fad-bfad-027f5c77075b" x="75" y="29" width="480" height="36" forecolor="#000000"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[TANJUNG BARAT – JAGAKARSA – JAKARTA SELATAN
+Sekretariat : Jl. Rancho Indah, Gg. Gintung, No.200, RT 11 RW 02, HP :087830192245
+]]></text>
+			</staticText>
+			<image>
+				<reportElement uuid="9951de3a-534e-4209-a2fd-a221c7c2d901" x="0" y="0" width="75" height="65"/>
+				<imageExpression><![CDATA["C:\\Users\\Nanang M\\Documents\\NetBeansProjects\\siponpes\\build\\classes\\gambar\\LOGO.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="a8461287-5e12-4165-9d1c-2085dedf19e4" x="75" y="0" width="480" height="33" forecolor="#000000"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PONDOK PESANTREN AL FAUZAN NUSANTARA]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="d32a344b-3fb2-45f9-9236-6a19b697f835" x="0" y="71" width="555" height="1" forecolor="#666666"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="70">
+			<staticText>
+				<reportElement uuid="8ef42aec-b9e9-4da4-8f03-cf904df28ba7" x="135" y="0" width="268" height="31" forecolor="#000000"/>
+				<textElement textAlignment="Center">
+					<font size="24" isBold="true" isPdfEmbedded="false"/>
+				</textElement>
+				<text><![CDATA[JADWAL PELAJARAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="31d72a78-0449-4fad-bfad-027f5c77075b" x="135" y="31" width="268" height="20" forecolor="#000000"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Tahun Pelajaran 2024/2025]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="21">
+			<staticText>
+				<reportElement uuid="817cd4a0-df62-491f-a8a2-9ae6776dee06" mode="Opaque" x="0" y="0" width="51" height="20" forecolor="#009933" backcolor="#E6E6E6"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1669981d-5cef-4368-b7d9-73285c268b44" mode="Opaque" x="49" y="0" width="100" height="20" forecolor="#009933" backcolor="#E6E6E6"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HARI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a176be9b-939c-4619-a6a6-09da7a3f91a4" mode="Opaque" x="149" y="0" width="98" height="20" forecolor="#009933" backcolor="#E6E6E6"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JAM Ke]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d289e79d-576f-437a-987c-b610ab7ee69a" mode="Opaque" x="309" y="0" width="111" height="20" forecolor="#009933" backcolor="#E6E6E6"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MAPEL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c6d5a905-a648-42fc-bdaf-af215eedc7f6" mode="Opaque" x="420" y="0" width="135" height="20" forecolor="#009933" backcolor="#E6E6E6"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PENGAJAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a176be9b-939c-4619-a6a6-09da7a3f91a4" mode="Opaque" x="247" y="0" width="62" height="20" forecolor="#009933" backcolor="#E6E6E6"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kelas]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="2f5c52a6-90e6-44d1-8ff6-9323083cab55" x="0" y="0" width="49" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{no}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="99f28516-3d47-4172-b89a-9b6fc07c3c0c" x="49" y="0" width="100" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hari}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="6436d96f-b9df-40b4-9a3a-e69910aa17a2" x="149" y="0" width="98" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jam}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="cf67f8e8-a7f5-488d-b547-71217b600890" x="309" y="0" width="111" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{mapel}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="9f630141-9271-4881-9cb6-884c117dbf4d" x="420" y="0" width="135" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pengajar}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="c8d6565d-2acc-42a6-a914-e34eb31f8eba" x="247" y="0" width="62" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{kelas}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="97"/>
+	</columnFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9cdfbae1-fd4f-4bac-ba73-0ebd7515f740">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from nilai]]>
+	</queryString>
+	<field name="no" class="java.lang.Integer"/>
+	<field name="nisn" class="java.lang.String"/>
+	<field name="nama" class="java.lang.String"/>
+	<field name="kelas" class="java.lang.String"/>
+	<field name="tugas" class="java.lang.String"/>
+	<field name="kuis" class="java.lang.String"/>
+	<field name="uts" class="java.lang.String"/>
+	<field name="uas" class="java.lang.String"/>
+	<field name="nakhir" class="java.lang.String"/>
+	<field name="grade" class="java.lang.String"/>
+	<field name="status" class="java.lang.String"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<frame>
+				<reportElement uuid="b2e6be18-5ed7-4bbc-9758-609a10d450f8" mode="Opaque" x="-20" y="-20" width="841" height="92" backcolor="#339900"/>
+				<staticText>
+					<reportElement uuid="7c0d83b2-029f-4a22-834f-11846cc5ab88" x="286" y="0" width="234" height="43" forecolor="#FFFFFF"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="24" isBold="true"/>
+					</textElement>
+					<text><![CDATA[HASIL PENILAIAN]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="4780ab65-b968-4273-9b7b-4e13e0e786c8" x="286" y="43" width="234" height="20" forecolor="#FFFFFF"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[PONPES Al Fauzan Nusantara]]></text>
+				</staticText>
+				<image>
+					<reportElement uuid="9951de3a-534e-4209-a2fd-a221c7c2d901" x="208" y="7" width="75" height="82"/>
+					<imageExpression><![CDATA["C:\\Users\\Nanang M\\Documents\\NetBeansProjects\\siponpes\\build\\classes\\gambar\\LOGO.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement uuid="31d72a78-0449-4fad-bfad-027f5c77075b" x="286" y="63" width="234" height="20" forecolor="#FFFFFF"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Tahun Pelajaran 2024/2025]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="13"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="21">
+			<line>
+				<reportElement uuid="44ec2944-aca3-41ab-b4a4-2db1cceec8c4" x="0" y="20" width="622" height="1" forecolor="#666666"/>
+			</line>
+			<staticText>
+				<reportElement uuid="e6debf30-a8c0-44c4-b063-3bb61783eee4" mode="Opaque" x="0" y="0" width="50" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="aadf197f-de3c-40d9-a8cb-b6539ac8beb1" mode="Opaque" x="50" y="0" width="66" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NISN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="900cf665-0d96-4565-a31f-cd0d38f610e3" mode="Opaque" x="116" y="0" width="50" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NAMA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6f5c1651-50e4-456e-ae82-1ba233b68de1" mode="Opaque" x="166" y="0" width="50" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KELAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="652f272c-110c-48e8-b91a-e51c044f5e96" mode="Opaque" x="216" y="0" width="50" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TUGAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f7bf1ee1-582d-4d48-a26e-0f0a10ed3359" mode="Opaque" x="266" y="0" width="50" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KUIS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d31eebe8-172e-4258-b952-31357a81723b" mode="Opaque" x="316" y="0" width="50" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[UTS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f417a06c-bd2c-4887-8a11-59663c471cff" mode="Opaque" x="366" y="0" width="50" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[UAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="db06996b-40fb-444e-8ef8-e7cadcd0c6c4" mode="Opaque" x="416" y="0" width="75" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NILAI AKHIR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8eaa5e18-8e0d-4fc1-8f30-c37edb32d8d5" mode="Opaque" x="491" y="0" width="64" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[GRADE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="76f69f19-26a8-49ef-a161-8c049a85181d" mode="Opaque" x="555" y="0" width="81" height="20" forecolor="#006699" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[STATUS]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="26">
+			<line>
+				<reportElement uuid="5a55c8bd-1899-4376-9521-de2837516945" positionType="FixRelativeToBottom" x="0" y="20" width="622" height="1"/>
+			</line>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="b1c51003-2225-437c-846c-c43494e03776" x="0" y="0" width="50" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{no}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="d4b5067a-1a70-4807-8db6-ea816d0cb126" x="50" y="0" width="66" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nisn}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="98c6209a-cf48-4865-a6c3-aedb7ff1eb73" x="116" y="0" width="50" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="1456ae1b-540a-4b67-bac7-6c5a66e519b3" x="166" y="0" width="50" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kelas}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="a0201d43-a960-4eac-9117-be72b5a7a484" x="216" y="0" width="50" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tugas}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="8dc637b1-8d63-4f43-9945-d6ce14ba4220" x="266" y="0" width="50" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kuis}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="5beb15e5-a07b-4be8-8ce3-459cfe468996" x="316" y="0" width="50" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{uts}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="91073948-4abf-4159-baa5-6a255af78586" x="366" y="0" width="50" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{uas}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="938f464e-cf4c-40fa-b7c1-abe205b463fb" x="416" y="0" width="50" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nakhir}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="79d3ab70-4e18-4c49-8464-48e1935f7a56" x="491" y="0" width="50" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{grade}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="64d10baa-e278-4a69-a6c7-e67eba306573" x="542" y="0" width="80" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{status}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement uuid="98d71f50-1663-4f3e-a66e-0c593a63fb0a" mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="2184d46c-4d53-4764-9d60-8d6138aeeddf" mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement uuid="49ffdc77-2c4b-41e4-b8b3-d8ada28c6798" x="0" y="4" width="100" height="13"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="rbjeniskelamin">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="99" green="ff" red="99" type="rgb"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1026, 716]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-34,0,0,4,-15"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="panelMain">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+          <CardConstraints cardName="card2"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="panelView">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="txtnama" min="-2" pref="420" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="bcari" min="-2" pref="61" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="txtno" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="txtkelas" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="txtnisn" alignment="0" max="32767" attributes="0"/>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                                  <Component id="txtket" min="-2" pref="65" max="-2" attributes="0"/>
+                                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                                  <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace pref="133" max="32767" attributes="0"/>
+                                                                  <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="cETAK2" max="32767" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="btTambah" min="-2" pref="100" max="-2" attributes="0"/>
+                                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                                  <Component id="bBatal" min="-2" pref="97" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="bthapus" min="-2" pref="96" max="-2" attributes="0"/>
+                                                              <Component id="txtizin" min="-2" pref="96" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="txtsakit" min="-2" pref="81" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="jLabel26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                          <Component id="tbinggris" alignment="0" pref="76" max="32767" attributes="0"/>
+                                                          <Component id="tipa" alignment="0" max="32767" attributes="0"/>
+                                                          <Component id="tips" alignment="0" max="32767" attributes="0"/>
+                                                          <Component id="tik" alignment="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                          <Component id="tppkn" alignment="0" pref="74" max="32767" attributes="0"/>
+                                                          <Component id="tmtk" max="32767" attributes="0"/>
+                                                          <Component id="tindo" alignment="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jLabel34" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel38" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jLabel31" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel30" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel35" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Component id="jLabel39" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="takhlaq" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                                              <Component id="tarab" min="-2" pref="74" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Component id="talquran" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
+                                                          <Component id="thadist" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
+                                                          <Component id="tfiqih" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
+                                                          <Component id="takidah" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
+                                                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                              <Component id="taswaja" min="-2" pref="74" max="-2" attributes="0"/>
+                                                              <Component id="ttarikh" min="-2" pref="74" max="-2" attributes="0"/>
+                                                              <Component id="tshorof" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="ttotal" min="-2" pref="57" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="jLabel40" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="trata" min="-2" pref="51" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="txtstatus" min="-2" pref="122" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="hitung" min="-2" pref="100" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="72" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel3" max="32767" attributes="0"/>
+                                  <Component id="jLabel1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                              <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtno" min="-2" pref="24" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtnisn" min="-2" pref="24" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtnama" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="bcari" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtkelas" min="-2" pref="24" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtket" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="jLabel42" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtsakit" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="jLabel43" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtizin" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tppkn" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="tarab" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tindo" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tmtk" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tipa" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tbinggris" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tips" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tik" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="talquran" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="thadist" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="tfiqih" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="takhlaq" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="takidah" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                              <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel37" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="ttarikh" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="tshorof" min="-2" pref="24" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
+                                          <Component id="taswaja" min="-2" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ttotal" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="jLabel40" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="trata" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtstatus" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="bthapus" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="btTambah" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="bBatal" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="hitung" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="cETAK2" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="240" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tbnilai">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="0" rowCount="1"/>
+                    </Property>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                  </Properties>
+                  <AccessibilityProperties>
+                    <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
+                  </AccessibilityProperties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tbnilaiMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Penilaian"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/Health Graph.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="fosalgo.FButtonHapus" name="bthapus">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/Cancel_1.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="HAPUS"/>
+                <Property name="fillOver" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="33" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bthapusActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="fosalgo.FButtonTambah" name="btTambah">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/Add.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="SIMPAN"/>
+                <Property name="fillClick" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="0" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btTambahActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="fosalgo.BATAL" name="bBatal">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/Go Back.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="BATAL"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bBatalActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtno">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="NO ID"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtnisn">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="NISN"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtnama">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nama"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Kelas"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtkelas">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tppkn">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tppknActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="PPKN"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="B.indo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tindo">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tindoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tipa">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tipaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="IPA"/>
+              </Properties>
+            </Component>
+            <Component class="fosalgo.CARI" name="bcari">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="cari"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bcariActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="fosalgo.CETAK" name="cETAK2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/Print.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CETAK RAPORT"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cETAK2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Total"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ttotal">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ttotalActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Status"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtstatus">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtstatusActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="MTK"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tmtk">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tmtkActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="fosalgo.CARI" name="hitung">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/Equals.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="HITUNG"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hitungActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="B.Inggris"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tbinggris">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbinggrisActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="IPS"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tips">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tipsActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tik">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tikActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="TIK"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="NILAI PELAJARAN MUATAN NASIONAL "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="B.Arab"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tarab">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tarabActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel31">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Al-Qur&apos;an"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="talquran">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="talquranActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel32">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Hadist"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="thadist">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="thadistActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfiqih">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfiqihActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel33">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Fiqh"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel34">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="NILAI PELAJARAN MUATAN LOKAL"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel35">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Akhlaq"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="takhlaq">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="takhlaqActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel36">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Akidah"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="takidah">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="takidahActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel37">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tarikh"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="ttarikh">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ttarikhActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel38">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Shorof"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tshorof">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tshorofActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel39">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Aswaja"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="taswaja">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="taswajaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel40">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nilai Rata-rata"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="trata">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="trataActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel41">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tanpa Keterangan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtket">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtketActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel42">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Sakit"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtsakit">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtsakitActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtizin">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="0" green="ff" red="0" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtizinActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel43">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Izin"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel44">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SansSerif" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="KETIDAKHADIRAN"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
