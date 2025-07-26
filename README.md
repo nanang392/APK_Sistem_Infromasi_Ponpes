@@ -51,11 +51,3 @@ Kami sangat menghargai kontribusi Anda untuk mengembangkan SIPONPES menjadi lebi
 3.  Lakukan commit pada perubahan Anda: `git commit -m "Tambahkan fitur baru"`.
 4.  Push branch Anda ke repositori fork Anda: `git push origin fitur-baru`.
 5.  Buat Pull Request ke repositori utama.
-
-## Lisensi 📄
-
-Tidak ada lisensi yang disebutkan.
-
-
----
-README.md ini dihasilkan secara otomatis oleh [README.MD Generator](https://github.com/emRival) — dibuat dengan ❤️ oleh [emRival](https://github.com/emRival)
